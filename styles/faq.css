@@ -1,0 +1,29 @@
+#faq {
+	background: linear-gradient(rgba(37, 10, 54, 0.603), rgba(0, 0, 0, 0.703)), url('../img/faq.jpg');
+	background-size: cover;
+}
+.faq {
+	margin: 20px;
+	border: 1px solid #fff;
+	padding: 10px;
+	transition: 0.4s;
+}
+.faq h5 {
+	font-size: 12px;
+}
+.faq p {
+	font-size: 12px;
+
+	height: 0px;
+	overflow: hidden;
+	transition: 0.4s;
+}
+.faq:hover {
+	background-color: rgba(22, 20, 65, 0.624);
+}
+.faq:hover p {
+	border-top: 1px solid #fff;
+	height: 70px;
+	display: block;
+	padding-top: 5px;
+}

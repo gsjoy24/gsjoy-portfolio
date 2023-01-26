@@ -1,0 +1,23 @@
+/* services */
+#services {
+	background: linear-gradient(rgba(137, 18, 210, 0.123), rgba(0, 0, 0, 0.572)), url('../img/services.jpg');
+	background-size: cover;
+}
+.service {
+	padding: 20px;
+	text-align: center;
+	background-color: rgba(16, 110, 216, 0.335);
+	margin: 20px;
+	max-width: 200px;
+	border-radius: 4px;
+	color: #fff;
+	border: 2px solid white;
+}
+.service:hover {
+	background-color: rgba(16, 109, 216, 0.558);
+	transform: scale(1.1);
+}
+.service img {
+	padding: 20px;
+	width: 50px;
+}

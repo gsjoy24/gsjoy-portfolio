@@ -1,0 +1,59 @@
+/* pricebox */
+#pricing {
+	background: linear-gradient(rgba(31, 7, 47, 0.532), rgba(0, 0, 0, 0.763)), url('../img/pricing.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pricing-table {
+	color: #fff;
+	margin: 15px 30px;
+	padding: 20px;
+	position: relative;
+}
+.border-both {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #fff;
+}
+.pricing-table li {
+	padding: 8px 0;
+	display: flex;
+	align-items: center;
+}
+.pricing-table img {
+	padding: 0 8px;
+}
+.pricing-pac {
+	padding: 20px 10px;
+}
+.pricing-pac h5 {
+	letter-spacing: 5px;
+}
+.recomended {
+	display: inline-block;
+	background-color: rgb(255, 255, 255);
+	color: rgb(16, 3, 3);
+	border-top-right-radius: 10px;
+	line-height: 0;
+	padding: 10px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.buy-btn {
+	padding: 5px 10px;
+	background: none;
+	border: 1px solid #fff;
+	border-radius: 3px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.buy-btn:hover {
+	background: #000;
+}
+.reco {
+	animation-name: btn;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);
+}

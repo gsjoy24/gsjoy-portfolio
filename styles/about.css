@@ -1,0 +1,22 @@
+#about {
+	background: linear-gradient(rgba(18, 5, 27, 0.316), rgba(0, 0, 0, 0.688)), url('../img/about.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+.about-img {
+	width: 80%;
+}
+.about-img img {
+	width: 100%;
+}
+.about-text {
+	border-left: 2px solid #fff;
+	margin-left: 20px;
+	width: 100%;
+	padding: 10px 40px;
+	color: #fff;
+}
+
+.about-text h2 {
+	text-align: left;
+}
